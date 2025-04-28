@@ -1,2 +1,5 @@
 # LinearRegression_task3
 Housing Price Prediction using Linear Regression
+This project focuses on building a Linear Regression model to predict housing prices based on various features such as area, number of bedrooms, bathrooms, stories, parking availability, and other amenities. The dataset used (Housing.csv) contains detailed information about different houses. The workflow involves importing and preprocessing the data, where binary categorical variables (like 'yes'/'no') are encoded, and multi-class categorical features (such as furnishing status) are handled through one-hot encoding.
+
+After preprocessing, selected features are used to train a Linear Regression model using scikit-learn. The model is evaluated using standard metrics including Mean Absolute Error (MAE), Mean Squared Error (MSE), and the R² score to measure its performance. Additionally, feature coefficients are analyzed to understand the influence of each variable on the predicted price. A scatter plot is generated to visually compare actual vs predicted housing prices, particularly focusing on the 'area' feature.
